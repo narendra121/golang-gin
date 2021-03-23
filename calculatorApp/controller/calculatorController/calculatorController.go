@@ -28,6 +28,7 @@ func Subraction(c *gin.Context) {
 	//Binds the JSON Body
 	if err := c.ShouldBindJSON(&calculator); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid json body..."})
+		return
 	}
 	sum := calculatorServices.Sub(calculator)
 	c.JSON(http.StatusOK, gin.H{"Subraction Of Given Two Number": sum})
@@ -39,6 +40,7 @@ func Multiplication(c *gin.Context) {
 	//Binds the JSON Body
 	if err := c.ShouldBindJSON(&calculator); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid json body..."})
+		return
 	}
 	sum := calculatorServices.Multi(calculator)
 	c.JSON(http.StatusOK, gin.H{"multiplication Of Given Two Number": sum})

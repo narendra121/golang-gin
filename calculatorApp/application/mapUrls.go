@@ -5,8 +5,8 @@ import (
 )
 
 func MapUrls() {
-	router.GET("/add", calculatorController.Addition)
-	router.GET("/sub", calculatorController.Subraction)
-	router.GET("/multi", calculatorController.Multiplication)
+	router.POST("/add", calculatorController.Addition)
+	router.POST("/sub", calculatorController.Subraction)
+	router.POST("/multi", calculatorController.Multiplication)
 
 }
