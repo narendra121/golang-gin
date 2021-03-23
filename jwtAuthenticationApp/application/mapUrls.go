@@ -1,4 +1,4 @@
-package authenticationApp
+package application
 
 import (
 	"github.com/narendra121/golang-gin/jwtAuthenticationApp/controller/authController"

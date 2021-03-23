@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/narendra121/golang-gin/jwtAuthenticationApp/authenticationApp"
+	"github.com/narendra121/golang-gin/jwtAuthenticationApp/application"
 )
 
 func main() {
-	authenticationApp.StartAuthApp()
+	application.StartAuthApp()
 }

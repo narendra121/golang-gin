@@ -1,4 +1,4 @@
-package authenticationApp
+package application
 
 import "github.com/gin-gonic/gin"
 
