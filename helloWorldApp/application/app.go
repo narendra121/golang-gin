@@ -2,7 +2,7 @@ package application
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/narendra121/golang-gin/hello/controller"
+	"github.com/narendra121/golang-gin/helloWorldApp/controller"
 )
 
 var (

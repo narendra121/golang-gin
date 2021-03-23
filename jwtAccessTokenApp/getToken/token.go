@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/narendra121/golang-gin/accessToken/domain/user"
+	"github.com/narendra121/golang-gin/jwtAccessTokenApp/domain/user"
 )
 
 var(
